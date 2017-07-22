@@ -1,0 +1,101 @@
+@font-face {
+  font-family: 'Roboto Regular';
+  src: url('../fonts/Roboto-Regular.eot'); /* IE9 Compat Modes */
+  src: url('../fonts/Roboto-Regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../fonts/Roboto-Regular.woff') format('woff'), /* Pretty Modern Browsers */
+       url('../fonts/Roboto-Regular.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('../fonts/Roboto-Regular.svg#svgFontName') format('svg'); /* Legacy iOS */
+}
+@font-face {
+  font-family: 'Roboto Italic';
+  src: url('../fonts/Roboto-Italic.eot'); /* IE9 Compat Modes */
+  src: url('../fonts/Roboto-Italic.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../fonts/Roboto-Italic.woff') format('woff'), /* Pretty Modern Browsers */
+       url('../fonts/Roboto-Italic.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('../fonts/Roboto-Italic.svg#svgFontName') format('svg'); /* Legacy iOS */
+}
+@font-face {
+  font-family: 'Roboto Medium';
+  src: url('../fonts/Roboto-Medium.eot'); /* IE9 Compat Modes */
+  src: url('../fonts/Roboto-Medium.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../fonts/Roboto-Medium.woff') format('woff'), /* Pretty Modern Browsers */
+       url('../fonts/Roboto-Medium.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('../fonts/Roboto-Medium.svg#svgFontName') format('svg'); /* Legacy iOS */
+}
+@font-face {
+  font-family: 'Mission';
+  src: url('../fonts/Mission-Script.eot'); /* IE9 Compat Modes */
+  src: url('../fonts/Mission-Script.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../fonts/Mission-Script.woff') format('woff'), /* Pretty Modern Browsers */
+       url('../fonts/Mission-Script.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('../fonts/Mission-Script.svg#svgFontName') format('svg'); /* Legacy iOS */
+}
+.no_padding{
+	padding:0;
+}
+.black{
+	background:#000;
+}
+.enter_site{
+	padding:23px;
+}
+.enter_site_footer{
+	padding: 10px;
+    background: #000;
+    text-align: center;
+}
+.enter_site_footer span{
+	display: block;
+    color: #b59204;
+    font-family: Mission;
+}
+.enter_site_btn{
+	font-family: Roboto Medium;
+    text-transform: uppercase;
+    background: 0;
+    border: 1px solid #d7af0f;
+    color: #d7af0f;
+    border-radius: 0;
+    padding: 6px 20px;
+	float:right;
+	
+}
+.enter_site_btn:hover{
+	border:1px solid #fff;
+	color:#fff;
+}
+.social_iconslist{
+	list-style:none;
+	margin:0;
+	padding:0;
+}
+.social_iconslist li{
+	display:inline-block;
+	
+}
+.social_iconslist li a{
+	font-size:18px;
+	padding:0 5px;
+	color: #b59204;
+	font-weight:700;
+	display:block;
+}
+.social_iconslist li a:hover{
+	color:#fff;
+}
+.relative{
+	position:relative;
+}
+.absolute{
+	position:absolute;
+}
+.celebration{
+	    z-index: 9999;
+    height: 600px;
+    top: -67px;
+    width: 100%;
+}
+.celebration:hover{
+	    transform-origin: 50% 50% 0px;
+    transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, -0.00166, 0, 0, 0, 1);
+}
